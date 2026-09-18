@@ -1,5 +1,5 @@
 +++
-title = "About me"
+title = "About"
 description = "About Jacob George."
 template = "prose.html"
 insert_anchor_links = "none"
@@ -7,7 +7,9 @@ insert_anchor_links = "none"
 [extra]
 lang = 'en'
 title = "About"
-subtitle = "Who am I"
+subtitle = ""
 +++
 
-Hi, I'm Jacob. This page is intentionally short for now.
+Hi, I'm Jacob!  
+This blog mainly serves as a way to crystallize my thinking.  
+Currently working on getting better at Rust!

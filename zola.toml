@@ -21,8 +21,10 @@ github_alerts = true
 
 [markdown.highlighting]
 style = "class"
-light_theme = "github-light"
-dark_theme = "github-dark"
+# light_theme = "github-light"
+# dark_theme = "github-dark"
+light_theme = "gruvbox-light-medium"
+dark_theme = "gruvbox-dark-medium"
 
 [slugify]
 paths = "on"
@@ -44,7 +46,7 @@ nav = [
 name = "Jacob George"
 # handle = "jhonwick"
 # bio = "dog person, killer"
-# avatar = "img/avatar.webp"
+avatar = "img/avatar.webp"
 links = [
   { name = "GitHub", icon = "github", url = "https://github.com/jacobgeorge08" },
   { name = "Email", icon = "email", url = "mailto:jacobgeorge08@gmail.com" },
@@ -58,7 +60,7 @@ color_scheme = "auto" # "auto" | "light" | "dark"
 # og_image = "img/og.png" # The default image for social media sharing (Open Graph), a path in static folder or a full URL
 
 footer_copyright = "© 2026 Jacob George"
-footer_credits = true # Whether to show "Built with zola and serene" in footer
+footer_credits = false # Whether to show "Built with zola and serene" in footer
 
 not_found_error_text = "404 Not Found"
 not_found_recover_text = "« back to home »"

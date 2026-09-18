@@ -1,6 +1,6 @@
 +++
 title = "Posts"
-description = "Jacob George's blog."
+description = "Jacob's blog."
 sort_by = "date"
 template = "posts.html"
 page_template = "post.html"
@@ -10,7 +10,7 @@ generate_feeds = true
 [extra]
 lang = "en"
 title = "Posts"
-subtitle = "Notes on Rust and programming."
+subtitle = "Notes to Self"
 categorized = false
 back_to_top = true
 +++
